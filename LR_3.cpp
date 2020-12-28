@@ -26,7 +26,7 @@ String::String()
 	dlina = 0;
 }
 
-//конструктор инициализации строки со значением
+//конструктор строки со значением
 String::String(const char* str)
 {
 	dlina = strlen(str) + 1;
